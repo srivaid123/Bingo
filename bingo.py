@@ -1,6 +1,6 @@
 import random
 
-number_pool = [i for i in range(1, 91)]
+number_pool = [i for i in range(1, 80)]
 random.shuffle(number_pool)
 computer_card = sorted(random.sample(number_pool, 15))
 player_card = sorted(random.sample(number_pool, 15))
